@@ -1,5 +1,5 @@
 {% set name = "metocean-api" %}
-{% set version = "1.0.9" %}
+{% set version = "1.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 07e26d07c57427684e860b633ce1ebfe0a441edd59a0c8e67a985fd5740e5002
+  sha256: bdb0dd9fcdc7981034df63dbb48c7faf00b3c1f905be2644516102108f8351e2
 
 build:
   noarch: python
