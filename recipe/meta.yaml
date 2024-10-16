@@ -25,10 +25,10 @@ requirements:
     - numpy >=1.17
     - pandas
     - xarray
-    - dask
-    - pynco
+    - dask >=2024.9.1
     - netcdf4
     - pytest
+    - pytest-cov
     - cdsapi
     - cartopy
 
