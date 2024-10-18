@@ -46,7 +46,7 @@ about:
   summary: 'Package to extract time series of metocean data from global/regional/coastal hindcast'
   license: LGPL-2.1
   license_family: LGPL
-  license_file: LICENSE.txt
+  license_file: LICENSE
   doc_url: https://metocean-api.readthedocs.io/
   dev_url: https://github.com/MET-OM/metocean-api
 
