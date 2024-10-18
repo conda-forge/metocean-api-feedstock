@@ -25,10 +25,10 @@ requirements:
     - numpy >=1.17
     - pandas
     - xarray
-    - dask
-    - pynco
+    - dask >=2024.9.1
     - netcdf4
     - pytest
+    - pytest-cov
     - cdsapi
     - cartopy
 
@@ -43,8 +43,8 @@ test:
 about:
   home: https://github.com/MET-OM/metocean-api
   summary: 'Package to extract time series of metocean data from global/regional/coastal hindcast'
-  license: GPL-2.0-or-later
-  license_family: GPL
+  license: LGPL-2.1
+  license_family: LGPL
   license_file: LICENSE.txt
   doc_url: https://metocean-api.readthedocs.io/
   dev_url: https://github.com/MET-OM/metocean-api
