@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python 3.10
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python 3.10
+    - python {{ python_min }}
     - matplotlib-base >=3.1
     - numpy >=1.17
     - pandas
@@ -38,6 +38,7 @@ test:
     - metocean_api
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
